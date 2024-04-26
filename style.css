@@ -26,7 +26,8 @@ body {
     text-transform: uppercase;
     padding-top: 22px;
     padding-bottom: 22px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+    border: none!important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.23)!important;
     font-size: 1.1rem;
     width: 100%;
     border-radius: 0;
@@ -34,12 +35,11 @@ body {
     padding-right: 0.75rem;
    
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    box-shadow: none !important;
-    background-color: transparent !important;
+.dropdown-menu .dropdown-toggle:focus-visible {
     outline: none;
+    box-shadow: none;
+    border: none; /* Add this line to remove any border */
 }
-
 .header_custom.navbar .navbar-nav .nav-item .menu_custom:hover {
     color: #6ED2F5;
 }
@@ -154,6 +154,7 @@ button.navbar-toggler:focus:not(:focus-visible) {
 
    .navbar-nav .dropdown-menu {
         border-radius: 0;
+        padding-bottom: 0;
    }
    .dropdown-toggle::after {
      border: none;

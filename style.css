@@ -30,6 +30,7 @@ body {
     border-radius: 0;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+    box-shadow: none !important;
 }
 
 

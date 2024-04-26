@@ -136,10 +136,10 @@ button.navbar-toggler:focus:not(:focus-visible) {
     .navbar-collapse {
         max-height: 100vh;
         overflow-y: scroll;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
    }
    .navbar-nav {
-        padding-bottom: 0;
+    padding-bottom: 50px;
    }
    .mega_menu_content {
         padding-bottom: 0;
